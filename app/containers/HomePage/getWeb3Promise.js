@@ -23,6 +23,12 @@ export function loadNetworkPromise() {
                 explorerUrl = 'https://etherscan.io'
                 console.log('This is Foundation', netId)
                 break;
+              case "2":
+                netIdName = 'Expanse'
+                trustApiName = 'exp'
+                explorerUrl = 'https://expanscout.com'
+                console.log('This is Expanse', netId)
+                break;
               case "3":
                 netIdName = 'Ropsten'
                 trustApiName = 'ropsten'
